@@ -11,8 +11,8 @@ menganalisis data penyewaan sepeda dari sistem Capital Bikeshare di Washington D
 ```
 submission/
 ├── Dashboard/
-│   ├── day_df.csv        
-│   ├── hour_df.csv      
+│   ├── day.csv        
+│   ├── hour.csv      
 │   └── dashboard.py        
 ├── data/
 │   ├── day.csv              
@@ -30,6 +30,13 @@ submission/
 pip install -r requirements.txt
 ```
 
+### Menggunakan conda
+```bash
+conda create --name bike-sharing python=3.10
+conda activate bike-sharing
+pip install -r requirements.txt
+```
+
 ## Menjalankan Dashboard
 
 ```bash
@@ -37,4 +44,8 @@ cd dashboard
 streamlit run dashboard.py
 ```
 
-
+Sekarang dapat melihat aplikasi Streamlit Anda di browser.
+```bash
+Local URL: http://localhost:8501
+Network URL: http://10.199.66.104:8501
+```
