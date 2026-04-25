@@ -10,9 +10,8 @@ menganalisis data penyewaan sepeda dari sistem Capital Bikeshare di Washington D
 ## Struktur Direktori
 ```
 submission/
-├── dashboard/
+├── Dashboard/
 │   ├── day_df.csv        
-
 │   ├── hour_df.csv      
 │   └── dashboard.py        
 ├── data/
